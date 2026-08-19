@@ -3,6 +3,21 @@ Security research into Windows 10/11 analyzing Antivirus installations resulting
 
 ---
 
+# Copyright Notice
+
+Copyright © 2026 Arjun Bhaskaran Raj. All rights reserved.
+arjunbhaskaranraj@gmail.com
+
+This repository and its contents, including source code, proof-of-concept
+material, documentation, research, diagrams, and other original works,
+are protected by copyright.
+
+No permission is granted to reproduce, redistribute, modify, publish,
+commercialize, or create derivative works from the restricted
+proof-of-concept material without prior written permission from the
+copyright holder.
+
+
 ## Executive Summary
 
 This repository documents security research performed against Windows 10/11 systems investigating the interaction between Microsoft Defender Antivirus and third-party antivirus software.
@@ -53,15 +68,3 @@ Modern Windows endpoint security can consist of multiple complementary security 
                     Attack Resistance
 
 
-# Copyright Notice
-
-Copyright © 2026 Arjun B Raj. All rights reserved.
-
-This repository and its contents, including source code, proof-of-concept
-material, documentation, research, diagrams, and other original works,
-are protected by copyright.
-
-No permission is granted to reproduce, redistribute, modify, publish,
-commercialize, or create derivative works from the restricted
-proof-of-concept material without prior written permission from the
-copyright holder.
