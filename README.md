@@ -53,3 +53,15 @@ Modern Windows endpoint security can consist of multiple complementary security 
                     Attack Resistance
 
 
+# Copyright Notice
+
+Copyright © 2026 Arjun B Raj. All rights reserved.
+
+This repository and its contents, including source code, proof-of-concept
+material, documentation, research, diagrams, and other original works,
+are protected by copyright.
+
+No permission is granted to reproduce, redistribute, modify, publish,
+commercialize, or create derivative works from the restricted
+proof-of-concept material without prior written permission from the
+copyright holder.
